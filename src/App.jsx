@@ -1,10 +1,12 @@
 import React from 'react'
-import Header_Area from './Pages/Header_Area'
+import Header_Area from './Sections/Header_Area'
+import Download from './Sections/Download/Download'
 
 const App = () => {
   return (
-    <div className='bg-slate-400'>
+    <div>
       <Header_Area/>
+      <Download/>
     </div>
   )
 }

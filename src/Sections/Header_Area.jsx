@@ -4,7 +4,7 @@ import Hero from '../components/Hero/Hero'
 
 const Header_Area = () => {
   return (
-    <div>
+    <div className='bg-[url(Header_Area.png)] bg-black text-white h-[100vh]'>
         <NavBar/>
         <Hero/>
     </div>
