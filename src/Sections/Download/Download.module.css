@@ -1,0 +1,27 @@
+.containers{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 112, 218);
+    height: 40vh;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.textbox h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.btnContainer{
+    display: flex;
+    gap: 3rem;
+}
+

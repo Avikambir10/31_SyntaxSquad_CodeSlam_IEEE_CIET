@@ -5,9 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
     gap: 3rem;
+    margin-bottom: 4rem;
 }
 .list{
     font-family: "Lato", sans-serif;
@@ -15,4 +16,8 @@
     font-style: normal;
     display: flex;
     gap: 2.5rem;
+}
+
+.container img{
+    height: 1.6rem;
 }
